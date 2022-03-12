@@ -3,7 +3,7 @@ name: Linting
 on: 
   push:
     branches: [ linter ]
-  pull_requests:
+  pull_request:
     branches: [ linter ]
 
 jobs:
